@@ -133,7 +133,6 @@ root_agent = Agent(
     1. Call the `get_amazon_product_data` tool using the exact link provided.
     2. Read the structured product details returned by the tool.
     3. Determine the best, highest-impact keywords that would make this product rank higher on Amazon search.
-    4. Provide the result strictly matching the expected output schema layout.
     """,
     tools=[get_amazon_product_data],
 )
