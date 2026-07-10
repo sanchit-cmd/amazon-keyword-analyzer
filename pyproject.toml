@@ -1,0 +1,14 @@
+[project]
+name = "amazon-insights"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "google-adk>=2.4.0",
+    "ipykernel>=7.3.0",
+    "pip>=26.1.2",
+    "playwright>=1.61.0",
+    "requests>=2.34.2",
+]
